@@ -1,0 +1,247 @@
+@charset "UTF-8";
+
+/*configurações globais */
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+/*Configurações para todas as paginas*/
+
+/*Body*/
+Body{
+    background-image:linear-gradient( to right, #bdbcb9 70%, #7f7c79, #535251);
+    min-height: 100vh;
+    
+    
+    }
+
+/*Cabecalho*/
+
+header{
+    border: 3px solid #411917;
+    margin:auto;
+    background-color:#333;
+}
+.tituloprincipal{
+    color:#411917;
+    font-size:80px;
+    padding:5px;
+    margin-bottom:-20px;
+    text-shadow:1px 1px 1px black;
+    text-align:center;
+}
+
+header > p{
+    color:#411917;
+    font-size:40px;
+    padding-bottom:20px;
+    text-shadow:1px 1px 1px black;
+    text-align:center;}
+
+#iconepagina{
+    width:80px;
+}
+
+.divcabecalho{
+    display:flex;
+}
+#menu{
+    flex:1;
+    position:relative;
+}
+
+#menu > nav{
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+
+#logo{
+    flex:1;
+}
+.amenu{
+    color:#ffffff;
+    margin:10px;
+    text-decoration:none;
+}
+
+.amenu:hover{
+    color:#411917;
+}
+
+.footer{     
+       display:inline-block;
+       margin-top:auto;
+       margin-bottom:10px;
+      
+    }
+#footer1{
+    
+    max-width: 100%;
+    margin-left:10px;
+    
+   
+    
+}
+ 
+#footer2{
+    float:right;
+    height: 37px;
+    margin-right:40px;
+    
+    
+    
+    
+    
+}
+ #tamanhoicon{
+    width:40px;
+   
+    
+    
+}
+
+/*Corpo do PAGINA INDEX  */
+#mainpaginaprincipal{
+    max-width: 1200px;
+    min-width: 300px;
+    background-color:#FFFFFF;
+    padding:20px;
+    text-align:center;
+    margin:auto;
+    margin-top:30px;
+    margin-bottom:30px;
+    border-radius:5px;
+}
+#mainpaginaprincipal > p{
+    text-align:left;
+    
+}
+
+#imagemcorpoindex{
+    margin:20px;
+}
+
+.tituloartigo{
+    margin-bottom: 40px;
+    text-align:center;
+}
+
+.video > iframe{
+    margin:auto;
+    width:45%;
+    margin-top:-15px;
+    margin-bottom:30px;
+}
+
+
+/*Página dos Produtos*/
+
+
+
+
+table{
+  border-color:black;
+  margin:auto;
+
+}
+#tabelacor{
+    
+    font-weight: bold;
+    color:black;
+}
+
+.atabela{
+    color:#ffffff;
+}
+
+/*Pagina das Frutas*/
+
+
+.artigosdafruta{
+    margin-top: 50px;
+}
+
+.imgtext{
+    
+   margin:auto;
+    max-width:500px; 
+    border-radius: 2%;
+    background-color:lightgrey;
+    padding:20px;
+   
+}
+
+.imgtext > .frutaimg{
+    width:100px;
+    float:left;
+    margin:20px 20px 20px 20px;
+}
+
+/*PAGINA ONDE ESTAMOS */
+
+#ondeestamos{
+    
+    min-width:300px;
+    max-width:1200px;
+    margin:auto;
+    margin-top:30px;
+    text-align:center;
+}
+
+#mapa > iframe{
+    margin:auto;
+    width:60%;
+}
+
+/*PAGINA CONTACTOS*/
+
+.h2contactos{
+    margin-top: 30px;
+   
+}
+
+#maincontactos { 
+    margin:auto;
+    min-width: 300px;
+    max-width: 1200px;
+    display:flex; 
+   
+}
+#maincontactos > #contactos{
+     width:50%;
+     flex:1;
+   
+    
+}
+
+#maincontactos > #comunicação{
+    flex:1;
+    width:50%
+}
+
+
+#listascontactos{
+    padding:0px;
+}
+#listascontactos > li{
+    margin-bottom: 10px;
+}
+
+
+
+
+#traçocurto1{
+    width:68%;
+    color:white;
+    margin-bottom:40px;
+}
+
+#traçocurto2{
+    width:56%;
+    color:white;
+    margin-bottom:40px;
+}
